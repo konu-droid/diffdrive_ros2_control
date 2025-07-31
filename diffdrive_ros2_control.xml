@@ -1,0 +1,9 @@
+<library path="diffdrive_ros2_control">
+  <class name="diffdrive_ros2_control/DiffDriveSystemHardware"
+         type="diffdrive_ros2_control::DiffDriveSystemHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      It uses velocity command and position state interface to produce odom and tf for differiential robot
+    </description>
+  </class>
+</library>

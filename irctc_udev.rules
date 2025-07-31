@@ -1,0 +1,4 @@
+KERNEL=="ttyACM*", ATTRS{idVendor}=="20d2", ATTRS{idProduct}=="5740", MODE="0777", SYMLINK+="roboteq"
+KERNEL=="ttyUSB*", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", MODE:="0777", SYMLINK+="rplidar"
+KERNEL=="ttyACM*", ATTRS{idVendor}=="1a86", ATTRS{idProduct}=="55d3", MODE="0777", SYMLINK+="zlac8015_left"
+KERNEL=="ttyUSB*", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="6001", MODE="0777", SYMLINK+="zlac8015_right"
